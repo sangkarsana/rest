@@ -1,6 +1,6 @@
 # rest
 REST (Representational State Transfer) adalah sebuah arsitektur desain yang digunakan dalam pengembangan layanan web. REST diusulkan oleh Roy Fielding, salah satu penulis spesifikasi HTTP, dalam disertasinya pada tahun 2000. REST bukanlah sebuah standar atau protokol, tetapi lebih kepada sebuah set prinsip desain yang memanfaatkan standar web yang sudah ada seperti HTTP, URL, XML, dan JSON.
-
+![ArsitekturRestWebService](https://github.com/sangkarsana/rest/blob/main/rest-arch.jpg?raw=true)
 ### Prinsip-Prinsip Dasar REST
 
 1. **Stateless**: Setiap permintaan dari klien ke server harus mengandung semua informasi yang diperlukan untuk memproses permintaan tersebut. Server tidak menyimpan informasi tentang status klien.
