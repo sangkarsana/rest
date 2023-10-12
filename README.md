@@ -245,7 +245,7 @@ echo $json_string;  // Output: {"nama":"John","umur":30,"kota":"New York"}
 
 Dengan `json_decode()` dan `json_encode()`, Anda bisa dengan mudah membaca dan menulis data JSON di PHP. Ini sangat berguna saat Anda bekerja dengan RESTful web services, di mana JSON adalah salah satu format data yang paling umum digunakan.
 
-Berikut adalah langkah-langkah untuk membuat RESTful web service menggunakan PHP yang akan melayani data jadwal perkuliahan untuk Program Studi Informasi.
+Berikut adalah langkah-langkah untuk membuat RESTful web service menggunakan PHP yang akan **melayani data jadwal** perkuliahan untuk Program Studi Informasi.
 
 ### Persiapan
 
