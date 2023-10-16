@@ -1,0 +1,184 @@
+{
+    "karyawan": [
+        {
+            "id": 1,
+            "nama": "Ahmad",
+            "alamat": "Jl. Sudirman No.10, Jakarta",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 2,
+            "nama": "Siti",
+            "alamat": "Jl. Merdeka No.20, Bandung",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 3,
+            "nama": "Budi",
+            "alamat": "Jl. Diponegoro No.5, Surabaya",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 4,
+            "nama": "Dewi",
+            "alamat": "Jl. Malioboro No.1, Yogyakarta",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 5,
+            "nama": "Rizki",
+            "alamat": "Jl. Pemuda No.45, Semarang",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 6,
+            "nama": "Ayu",
+            "alamat": "Jl. Raya No.22, Malang",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 7,
+            "nama": "Raka",
+            "alamat": "Jl. Gajah Mada No.10, Denpasar",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 8,
+            "nama": "Lia",
+            "alamat": "Jl. Cendana No.35, Makassar",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 9,
+            "nama": "Eko",
+            "alamat": "Jl. Majapahit No.50, Medan",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 10,
+            "nama": "Tari",
+            "alamat": "Jl. Hang Jebat No.10, Palembang",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 11,
+            "nama": "Fikri",
+            "alamat": "Jl. A Yani No.20, Pekanbaru",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 12,
+            "nama": "Dian",
+            "alamat": "Jl. Veteran No.40, Pontianak",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 13,
+            "nama": "Rizal",
+            "alamat": "Jl. Asia Afrika No.20, Bogor",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 14,
+            "nama": "Mila",
+            "alamat": "Jl. Pahlawan No.60, Manado",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 15,
+            "nama": "Ari",
+            "alamat": "Jl. Soekarno-Hatta No.25, Batam",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 16,
+            "nama": "Nia",
+            "alamat": "Jl. Tukad Pakerisan No.8, Padang",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 17,
+            "nama": "Rafi",
+            "alamat": "Jl. Imam Bonjol No.100, Samarinda",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 18,
+            "nama": "Lina",
+            "alamat": "Jl. Kaliurang No.5, Solo",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 19,
+            "nama": "Aldi",
+            "alamat": "Jl. Arief Rahman Hakim No.10, Banjarmasin",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 20,
+            "nama": "Mira",
+            "alamat": "Jl. Cokroaminoto No.15, Mataram",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 21,
+            "nama": "Rio",
+            "alamat": "Jl. Raya Timur No.20, Kediri",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 22,
+            "nama": "Tina",
+            "alamat": "Jl. Sudirman No.45, Cirebon",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 23,
+            "nama": "Agus",
+            "alamat": "Jl. Merpati No.5, Jambi",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 24,
+            "nama": "Rina",
+            "alamat": "Jl. A Yani No.10, Serang",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 25,
+            "nama": "Fajar",
+            "alamat": "Jl. Diponegoro No.15, Bengkulu",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 26,
+            "nama": "Dina",
+            "alamat": "Jl. Pemuda No.30, Palu",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 27,
+            "nama": "Iqbal",
+            "alamat": "Jl. Cendrawasih No.20, Gorontalo",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 28,
+            "nama": "Sari",
+            "alamat": "Jl. Kartini No.10, Ambon",
+            "jenis_kelamin": "Perempuan"
+        },
+        {
+            "id": 29,
+            "nama": "Adi",
+            "alamat": "Jl. Raya Barat No.25, Jayapura",
+            "jenis_kelamin": "Laki-laki"
+        },
+        {
+            "id": 30,
+            "nama": "Lulu",
+            "alamat": "Jl. Raya Selatan No.40, Ternate",
+            "jenis_kelamin": "Perempuan"
+        }
+    ]
+}
