@@ -60,8 +60,72 @@ try {
 
 ### Langkah 2.2: File `master.php`
 1. Buka aplikasi notepad atau editor teks favoritmu.
-2. Salin kode dari file `master.php` yang saya berikan sebelumnya.
-3. Simpan file tersebut sebagai `master.php` di folder yang sama.
+
+```php
+<?php
+
+include "koneksi.php";
+
+// Menentukan metode request
+$method = $_SERVER['REQUEST_METHOD'];
+
+header('Content-Type: application/json');
+
+switch($method) {
+    case 'GET':
+        $sql = "SELECT * FROM karyawan";
+        $stmt = $pdo->query($sql);
+        $karyawan = $stmt->fetchAll();
+        echo json_encode($karyawan);
+        break;
+
+    case 'POST':
+        $data = json_decode(file_get_contents("php://input"));
+        if(isset($data->nama) && isset($data->alamat) && isset($data->jenis_kelamin)) {
+            $sql = "INSERT INTO karyawan (nama, alamat, jenis_kelamin) VALUES (?, ?, ?)";
+            $stmt = $pdo->prepare($sql);
+            $stmt->execute([$data->nama, $data->alamat, $data->jenis_kelamin]);
+            echo json_encode(['message' => 'Karyawan berhasil ditambahkan']);
+        } else {
+            echo json_encode(['message' => 'Data tidak lengkap']);
+        }
+        break;
+
+    case 'PUT':
+        $data = json_decode(file_get_contents("php://input"));
+        if(isset($data->id) && isset($data->nama) && isset($data->alamat) && isset($data->jenis_kelamin)) {
+            $sql = "UPDATE karyawan SET nama=?, alamat=?, jenis_kelamin=? WHERE id=?";
+            $stmt = $pdo->prepare($sql);
+            $stmt->execute([$data->nama, $data->alamat, $data->jenis_kelamin, $data->id]);
+            echo json_encode(['message' => 'Karyawan berhasil diperbarui']);
+        } else {
+            echo json_encode(['message' => 'Data tidak lengkap']);
+        }
+        break;
+
+    case 'DELETE':
+        $data = json_decode(file_get_contents("php://input"));
+        if(isset($data->id)) {
+            $sql = "DELETE FROM karyawan WHERE id=?";
+            $stmt = $pdo->prepare($sql);
+            $stmt->execute([$data->id]);
+            echo json_encode(['message' => 'Karyawan berhasil dihapus']);
+        } else {
+            echo json_encode(['message' => 'ID tidak ditemukan']);
+        }
+        break;
+
+    default:
+        echo json_encode(['message' => 'Metode tidak dikenali']);
+        break;
+}
+
+?>
+
+```
+
+3. Salin kode dari file `master.php` yang saya berikan sebelumnya.
+4. Simpan file tersebut sebagai `master.php` di folder yang sama.
 
 ## Tahap 3: Menguji API
 
